@@ -1,6 +1,17 @@
 img {
-            max-width: 300px;
-            height: auto;
-            margin-left: 50px;
-            
+    max-width: 300px;
+    height: auto;
 }
+
+body {
+    background-color: #b0f0f0;
+    font-family: Comic Sans Ms, sans-serif;
+    text-align:center;
+}
+/*
+.tarjeta {
+    background-color:#ffffff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}*/
