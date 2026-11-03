@@ -5,8 +5,10 @@ img {
 
 body {
     background-color: #b0f0f0;
+    color: #000000;
     font-family: Comic Sans Ms, sans-serif;
     text-align:center;
+    
 }
 /*
 .tarjeta {
