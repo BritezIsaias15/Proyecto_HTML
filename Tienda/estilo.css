@@ -1,6 +1,9 @@
 img {
     max-width: 300px;
     height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #3c879e;
 }
 
 body {
@@ -8,6 +11,19 @@ body {
     color: #000000;
     font-family: Comic Sans Ms, sans-serif;
     text-align:center;
+}
+
+.logo {
+    color: rgb(241, 255, 251);
+    margin: 0;
+}
+
+.navbar {
+  background-color: #669bf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
 }
 
 label {
@@ -22,12 +38,17 @@ input {
     box-sizing: border-box;
 }
 
+p {
+    max-width: 50%;
+    margin: 0px auto;
+    padding: 10px;
+}
 
 button {
-    background-color: blue;
-    color: white;
-    padding: 8px;
-    width: 100%;
+background-color: #5ea3ac;
+color: #000000;
+padding: 10px;
+border-radius: 6px;
 }
 
 .formulario {
