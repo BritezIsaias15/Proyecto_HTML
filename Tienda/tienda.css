@@ -8,12 +8,13 @@ body {
     color: #000000;
     font-family: Comic Sans Ms, sans-serif;
     text-align:center;
-    
 }
-/*
-.tarjeta {
-    background-color:#ffffff;
-    padding: 20px;
-    margin: 15px;
-    border-radius: 10px;
-}*/
+
+ .button{
+    background-color: #2a8dc7; 
+    color: #000000;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
