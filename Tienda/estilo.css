@@ -64,11 +64,12 @@ p {
 }
 
 button {
-    background-color: #52a4af;
+    background-color: #71c7d3;
     color: #000000;
     padding: 10px;
     margin: 5px;
-    border-radius: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .formulario {
@@ -78,4 +79,8 @@ button {
     padding: 20px;
     border: 1px solid #000000;
     border-radius: 10px;
+}
+
+.optionsHeader {
+    text-align: right;
 }
