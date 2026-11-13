@@ -1,5 +1,5 @@
 img {
-    max-width: 300px;
+    max-width: 100px;
     height: auto;
     padding: 10px;
     border-radius: 10px;
@@ -13,12 +13,13 @@ body {
 }
 
 .catalogo {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    display: flex;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     gap: 80px;
 }
 
 .producto {
+    flex: 1;
     width: 100%;   
     max-width: 600px;  
     background-color: #fff;
@@ -28,20 +29,36 @@ body {
     box-sizing: border-box; 
 }
 
-.text {
-    text-align: center;
-}
-
 .logo {
     color: rgb(241, 255, 251);
+    text-align: left;
 }
 
-.navbar {
-  background-color: #669bf8;
+.navHori {
+  background-color: #538bc0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
+}
+
+.navOpti {
+    text-align: right;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+.navVert {
+    background-color:#71c7d3;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 100vh;
+}
+
+.navTittle {
+    text-align: center;
 }
 
 label {
