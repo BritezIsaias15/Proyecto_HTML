@@ -1,40 +1,57 @@
-img {
+/*img {
     max-width: 100px;
     height: auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: inset 0 0 10px #3c879e;
-}
+}*/
 
 body {
     background-color: #b0f0f0;
     color: #000000;
     font-family: Comic Sans Ms, sans-serif;
+    text-align: center;
 }
 
 .catalogo {
     display: flex;
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
-    gap: 80px;
+    align-items: top;
+}
+
+.search {
+    background-color:#71c7d3;
+    width: 100px;
+    min-height: 100vh;
+}
+
+.search h3 {
+    text-align: center;
+}
+.search ul {
+    text-align: left;
 }
 
 .producto {
-    flex: 1;
-    width: 100%;   
-    max-width: 600px;  
+    display: flex;
+    flex-wrap:wrap;
     background-color: #fff;
+    max-width: 400px;
+    max-height: 400px;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
     box-sizing: border-box; 
 }
 
-.logo {
-    color: rgb(241, 255, 251);
-    text-align: left;
+.producto p {
+    max-width: 400px;;
+}
+.producto img {
+    max-width: 50px;
+    height: 50px;
 }
 
-.navHori {
+.tittle {
   background-color: #538bc0;
   display: flex;
   justify-content: space-between;
@@ -42,23 +59,16 @@ body {
   padding: 15px 40px;
 }
 
-.navOpti {
+.tittle h1 {
+    color: rgb(241, 255, 251);
+    text-align: left;
+}
+
+.tittle ul {
     text-align: right;
     list-style: none;
     display: flex;
     padding: 10px;
-}
-
-.navVert {
-    background-color:#71c7d3;
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    min-height: 100vh;
-}
-
-.navTittle {
-    text-align: center;
 }
 
 label {
@@ -83,6 +93,7 @@ p {
 button {
     background-color: #71c7d3;
     color: #000000;
+    max-height: 100%;
     padding: 10px;
     margin: 5px;
     border: 1px solid gray;
